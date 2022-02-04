@@ -15,7 +15,6 @@ public class pascaltriangle {
           String s=(int)Math.pow(11,i-1)+"";
           for(int j=0;j<s.length();j++)
           { 
-              s=s.substring(j);
             System.out.print((Character.getNumericValue(s.charAt(i)))+" ");
           }
           System.out.println("");
