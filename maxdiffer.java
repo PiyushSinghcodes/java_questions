@@ -7,6 +7,7 @@ public class maxdiffer {
         
     }
    public static void maxdiff(int[] arr,int n){
+
     int max=arr[1]-arr[0];
     int min=arr[0];
     for(int i=1;i<n;i++)
